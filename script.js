@@ -3,6 +3,8 @@ const textElement2 = document.querySelector('.header__wellcome-text2');
 const text1 = 'Welcome on my page. '
 const text2 = 'Feel comfortable. :-)'
 
+const typingSpeed = 300;
+
 let reset = false
 let licznik = 0;
 const cur = document.querySelector('.header__cursor')
@@ -33,7 +35,7 @@ function addLeter() {
 
 }
 
-const indexInterval = setInterval(addLeter, 400);
+const indexInterval = setInterval(addLeter, typingSpeed);
 let licznik2 = 0;
 
 function cursorBlink() {
@@ -47,4 +49,4 @@ function cursorBlink() {
 
 }
 
-setInterval(cursorBlink, 400);
+setInterval(cursorBlink, typingSpeed);
