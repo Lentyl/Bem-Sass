@@ -37,8 +37,6 @@
         letter-spacing: 2px;
         color: white;
 
-
-
         .header__wellcome-text1 {
             float: left;
         }
@@ -53,6 +51,7 @@
 
         @media (max-width:600px) {
             top: 6%;
+            font-size: 26px;
         }
 
 

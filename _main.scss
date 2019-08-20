@@ -1,13 +1,19 @@
 .main {
     margin: 16px auto;
-
+    height: 1000px;
     width: 90%;
 
-    .main__article-container {
+    .main__article-container--active {
         margin-top: 20px;
 
         .main__article-header {
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
     }
+
+    .main__article-container {
+        display: none;
+    }
+
+
 }

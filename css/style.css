@@ -50,6 +50,7 @@
 @media (max-width: 600px) {
   .header .header__text-constainer {
     top: 6%;
+    font-size: 26px;
   }
 }
 
@@ -150,14 +151,19 @@
 
 .main {
   margin: 16px auto;
+  height: 1000px;
   width: 90%;
 }
 
-.main .main__article-container {
+.main .main__article-container--active {
   margin-top: 20px;
 }
 
-.main .main__article-container .main__article-header {
-  margin-bottom: 6px;
+.main .main__article-container--active .main__article-header {
+  margin-bottom: 8px;
+}
+
+.main .main__article-container {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
