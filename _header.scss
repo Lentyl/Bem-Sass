@@ -5,8 +5,6 @@
 }
 
 
-
-
 .header {
 
 
@@ -17,6 +15,11 @@
     height: 500px;
     background-color: aqua;
     letter-spacing: 1px;
+
+    @media (max-width:600px) {
+        height: 200px;
+
+    }
 
     .header__backgroundImg {
         position: relative;
@@ -52,6 +55,7 @@
         @media (max-width:600px) {
             top: 6%;
             font-size: 26px;
+            max-width: 100%;
         }
 
 
@@ -116,7 +120,7 @@
         bottom: 6%;
 
         @media (max-width:600px) {
-            bottom: 12%;
+            bottom: 20%;
         }
 
     }
